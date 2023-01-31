@@ -1,0 +1,65 @@
+[ 
+    {
+    "id":1,
+    "name":"Ahmed Khaled ",
+    "email":"ahmadKh2@gmail.com",
+    "password":"JWFt4XE780l8",
+    "phon":"0599975523",
+    "city":"Palestine",
+    "gender":"Male"
+    
+    },
+    
+    {
+    "id":2,
+    "name":"Raghad Zaidan",
+    "email":"raghadZm@gmail.com",
+    "password":"XX7t_50L4md8",
+    "phon":"0595725170",
+    "city":"Palestine",
+    "gender":"Female"
+    
+    },
+    {
+      "id":3,
+      "name":"Mahmud ibrahim",
+      "email":"Mahmudibrahim@gmail.com",
+      "password":"QM80S_XgWsrP",
+      "phon":"0595415542",
+      "city":"Palestine",
+      "gender":"Male"
+      
+      },
+      {
+        "id":4,
+        "name":"Walid Assi",
+        "email":"Walid_Assi@gmail.com",
+        "password":"f_z338_F071T",
+        "phon":"0785424571",
+        "city":"Jordan",
+        "gender":"Male"
+        
+        },
+        {
+          "id":5,
+          "name":"Noor Mahmoud",
+          "email":"Noor3Mahmoud@gmail.com",
+          "password":"T0G65zre5MfJ",
+          "phon":"0785374573",
+          "city":"Jordan",
+          "gender":"Female"
+          
+          },
+  {
+   "id":6,
+   "name":"Yousef Saeed",
+   "email":"Yousef31@gmail.com",
+   "password":"AE7_MYNN5V7D",
+   "phon":"0795529888",
+   "city":"Jordan",
+   "gender":"Male"
+  
+  }
+
+
+  ]

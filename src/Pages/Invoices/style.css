@@ -1,0 +1,103 @@
+/* Public */
+thead,
+#sub-total,
+#tax {
+    color: #29aed6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* End of public */
+
+
+/* Main Part - Client Details */
+.total {
+    justify-content: center;
+}
+
+.invoice-column,
+.date-column {
+    margin-top: 6%;
+}
+
+.invoice-total {
+    position: relative;
+    font-weight: initial;
+    color: #29aed6;
+    font-size: xx-large;
+    left: 1%;
+}
+
+.invoice-table {
+    position: relative;
+    top: 4.2rem;
+}
+
+#table-amount {
+    padding-left: 2rem;
+}
+
+/* End of Client Details */
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-print {
+    width: auto;
+    position: relative;
+    bottom: 4.6rem;
+    left: 3rem;
+}
+
+/* End of footer */
+
+
+/* Responsive */
+
+@media screen and (max-width:650px) {
+
+    .invoice-column {
+        margin-bottom: 0.1rem;
+        justify-content: center;
+        display: flex;
+    }
+
+    .date-column {
+        position: relative;
+        width: 100%;
+        right: 1.2rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    #table-product,
+    #table-cost,
+    #table-amount {
+        display: block;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    #table-row {
+        display: none;
+    }
+
+    #table-amount {
+        padding-left: 0;
+    }
+
+    .btn-print {
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+}
+
+/* End of responsive */

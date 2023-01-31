@@ -1,0 +1,111 @@
+.list{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2%;
+    overflow-x: auto;
+}
+.headerCont{
+display: flex;
+flex-direction: row;
+}
+.firstCont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.secCont{
+    width: 20%;
+}
+#searchForm{
+    width: fit-content;
+    order: 3;
+}
+#productH{
+    order: 1;
+}
+#toDash{
+    order: 2;
+}
+#bttn{
+float: right;
+margin-top: 93px;
+width:140px;
+background-color: #55728f;
+border: #55728f;
+color: aliceblue;
+}
+#bttn:hover{
+    background-color: #55728f;
+    color:aliceblue;
+}
+
+.addPro{
+    width: auto;
+}
+#tableCard{
+    width: 100%;
+}
+.editBtn{
+    color: gray;
+    cursor: pointer;
+}
+/*.darkMode{
+    background-color: #343434;
+}*/
+.table td{
+    padding: 0.85rem;
+}
+#searchInput{
+    width: auto;
+}
+#deleteBtn{
+    cursor: pointer;
+}
+
+.arrow{
+
+    width: 30px;
+    height: 40px;
+}
+
+
+
+
+@media (max-width:654px) {
+    .table thead{
+        display: none;
+    }
+    .table,
+    .table tbody,
+    .table td,
+    .table tr{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15 px;
+    }
+    .table td{
+        text-align: center;
+        position: relative;
+    }
+}
+
+@media (max-width:620px){
+       
+       #cardH{
+        padding-bottom: 3px;
+       }
+       .secCont{
+        padding-top: 48px;
+        width: 2%;
+       }
+       #bttn{
+        margin-bottom: 8px;
+        margin-right: 24px;
+       }
+
+}
+
+
+

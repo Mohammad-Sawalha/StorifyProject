@@ -1,0 +1,111 @@
+.list{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2%;
+    overflow-x: auto;
+}
+.headerCont{
+    display: flex;
+    flex-direction: row;
+    }
+    .firstCont{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .secCont{
+        width: 20%;
+    }
+    #searchForm{
+        width: fit-content;
+        order: 3;
+    }
+    #toDash{
+        order: 2;
+    }
+    #customerH{
+        order: 1;
+    }
+
+    #bttn{
+        float: right;
+        margin-top: 93px;
+        width:140px;
+        background-color: #55728f;
+        border: #55728f;
+        color: aliceblue;
+        font-size: 15px;
+        }
+        #bttn:hover{
+            background-color: #55728f;
+            color:aliceblue;
+        }
+ 
+#tableCard{
+    width: 100%;
+}
+.btn1{
+    color: rgb(93, 91, 91);
+    cursor: pointer;
+}
+.deleteBtn1{
+    color: red;
+    cursor: pointer;
+  }
+  #sort{
+    margin-left: 52px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+@media (max-width:654px) {
+    .table thead{
+        display: none;
+    }
+    .table,
+    .table tbody,
+    .table td,
+    .table tr{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15 px;
+    }
+    .table td{
+        text-align: center;
+        position: relative;
+    }
+    
+}
+@media (max-width:620px){
+    #cardH{
+     padding-bottom: 3px;
+    }
+    .secCont{
+     padding-top: 48px;
+     width: 2%;
+    }
+    #addbtn{
+     margin-bottom: 8px;
+     margin-right: 24px;
+    }
+
+}
+@media (max-width:450px) {
+
+    .searchForm{
+       height: 2px;
+    }
+    
+}
+.page-link{
+   background-color:white ;
+   color: #55728f;
+       
+}
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #55728f;
+    border-color:#55728f; }
+
