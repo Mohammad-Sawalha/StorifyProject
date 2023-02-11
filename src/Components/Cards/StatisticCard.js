@@ -7,13 +7,11 @@ import ProductsIcon from './Icons/ProductsIcons';
 export default function StatisticCard({info,data}) {
   return (
     <Card>
-        <Card.Header>
+        <Card.Body className='d-flex flex-column'>
             <div className='d-flex flex-column'>
                 <span className='h5 cardTitle'>{info.title}</span>
                 <small className='text-muted'>{info.subTitle}</small>
             </div>
-        </Card.Header>
-        <Card.Body className='d-flex flex-column'>
         {data.map((data)=>
             <div key={data.id} className='d-flex mt-3'>
                 <div className='d-flex' key={data.id+'a'}>

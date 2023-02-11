@@ -1,9 +1,7 @@
-import AddCompany from "../../Components/Companies/Addcompany";
 
 const Companies = () => {
   return (
     <>
-      <AddCompany />
     </>
   );
 };

@@ -12,17 +12,15 @@ function TaxCalc() {
     return(
       <>
         <Card className=''>
-          <Card.Header>
-            <div className='d-flex'>
-            <Form.Label className='my-auto'>Tax Calculator</Form.Label><small className='ms-auto my-auto'>${total}</small>
-            </div>
-          </Card.Header>
           <Card.Body>
-            <div className='d-flex'>
+            <div className='d-flex mb-3'>
+              <Form.Label className='h5 my-auto'>Tax Calculator</Form.Label><small className='ms-auto my-auto'>${total}</small>
+            </div>
+            <div className='d-flex mb-4'>
               <Form.Label className='h6' htmlFor="inputAmount">Amount</Form.Label>
               <Form.Control
                 className='ms-auto py-auto'
-                style={{padding:4 ,fontSize:14,width:75 , height:25}}
+                style={{padding:4 ,fontSize:14,width:75 , height:21}}
                 type="float"
                 id="inputAmount"
                 value={Amount}
