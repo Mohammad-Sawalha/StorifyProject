@@ -10,11 +10,11 @@ const DoughnutChart = ({ GlobalData }) => {
   const [chartOptions, setChartOptions] = useState({});
   useEffect(() => {
     setChartData({
-      labels: GlobalData.DoughnutChart.labels,
+      labels: GlobalData.labels,
       datasets: [
         {
-          data: GlobalData.DoughnutChart.data,
-          backgroundColor: GlobalData.DoughnutChart.bgcolor,
+          data: GlobalData.data,
+          backgroundColor: GlobalData.bgcolor,
           hoverOffset: 10,
         },
       ],

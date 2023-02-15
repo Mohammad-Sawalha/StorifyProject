@@ -51,6 +51,7 @@ const Dashboard = () => {
                   key={statisticCardData.id}
                   info={statisticCardData}
                   data={statisticCardData.data}
+                  GlobalData={GlobalData.DoughnutChart}
                 />
               </Col>
             ))}
@@ -134,7 +135,7 @@ const Dashboard = () => {
             subtitle={"42.82k Total Orders"}
             data={"8,258"}
             datatitle={"Total Orders"}
-            chart={<DoughnutChart GlobalData={GlobalData} />}
+            chart={<DoughnutChart GlobalData={GlobalData.DoughnutChart} />}
           />
         </Col>
         <Col xl={{ span: 4 }} md={{ span: 6 }} className="mb-4">

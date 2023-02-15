@@ -14,7 +14,7 @@ function TaxCalc() {
         <Card className=''>
           <Card.Body>
             <div className='d-flex mb-3'>
-              <Form.Label className='h5 my-auto'>Tax Calculator</Form.Label><small className='ms-auto my-auto'>${total}</small>
+              <Form.Label className='h5 my-auto'>Tax Calculator</Form.Label><span className='ms-auto my-auto'>${total}</span>
             </div>
             <div className='d-flex mb-4'>
               <Form.Label className='h6' htmlFor="inputAmount">Amount</Form.Label>

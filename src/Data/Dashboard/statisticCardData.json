@@ -24,12 +24,26 @@
             "sales":"527",
             "border":"#FAAB78",
             "background":"#FFD495"
-
-        }]
+        }],
+        "DoughnutChart": {
+            "labels": ["From New Customers", "From Recurring Customers"],
+            "data": [43, 57],
+            "bgcolor": ["rgba(255, 100, 162, 0.8)", "rgba(116, 112, 225, 0.8)"]
+          },
+          "PieChart": {
+            "labels": ["Electronic", "Fashion", "Decor", "Sports"],
+            "data": [82.5, 23.8, 49, 99],
+            "bgcolor": [
+              "rgba(255, 99, 132, 0.8)",
+              "rgba(54, 162, 235, 0.8)",
+              "rgba(255, 206, 86, 0.8)",
+              "rgba(75, 192, 192, 0.8)"
+            ]
+          }
     },
     {
         "id":2,
-        "title":"Most selling products",
+        "title":"Products Statistics",
         "orderIcon":false,
         "data":[{
             "id":1,
@@ -52,6 +66,21 @@
             "sales":"89",
             "border":"#AA8B56",
             "background":"#F0EBCE"
-        }]    
+        }],
+        "DoughnutChart": {
+            "labels": ["From New Customers", "From Recurring Customers"],
+            "data": [43, 57],
+            "bgcolor": ["rgba(255, 100, 162, 0.8)", "rgba(116, 112, 225, 0.8)"]
+          },
+          "PieChart": {
+            "labels": ["Electronic", "Fashion", "Decor", "Sports"],
+            "data": [82.5, 23.8, 49, 99],
+            "bgcolor": [
+              "rgba(255, 99, 132, 0.8)",
+              "rgba(54, 162, 235, 0.8)",
+              "rgba(255, 206, 86, 0.8)",
+              "rgba(75, 192, 192, 0.8)"
+            ]
+          }
     }
 ]
