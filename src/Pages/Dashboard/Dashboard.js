@@ -15,6 +15,7 @@ import StatisticCard from "../../Components/Cards/StatisticCard";
 import TaxCalc from "../../Components/TaxCalculator/TaxCalc";
 import { Card } from "react-bootstrap";
 import GlobalData from "../../Data/Dashboard/ChartData.json";
+import DefaultTabs from "../../Components/Display/Tabs";
 
 const Dashboard = () => {
   //Todo:
@@ -104,8 +105,8 @@ const Dashboard = () => {
       <Row className="mt-4 mb-4 d-flex justify-content-center">
         <Col
           xl={{ span: 6 }}
-          lg={{ span: 6 }}
-          md={{ span: 6 }}
+          lg={{ span: 12 }}
+          md={{ span: 12 }}
           className="mb-4"
         >
           <Card>
@@ -116,35 +117,39 @@ const Dashboard = () => {
           </Card>
         </Col>
         <Col
-          xl={{ span: 4 }}
-          lg={{ span: 6 }}
-          md={{ span: 6 }}
+          xl={{ span: 6 }}
+          lg={{ span: 12 }}
+          md={{ span: 12 }}
           className="mb-4"
         >
-          <LargeCard
-            title={"Traffic Source"}
-            subtitle={"3.2k Visits last month"}
-            data={"143"}
-            datatitle={"Today"}
-            chart={<PolarChart GlobalData={GlobalData} />}
-          />
-        </Col>
-        <Col xl={{ span: 6 }} md={{ span: 6 }} className="mb-4">
-          <LargeCard
-            title={"Order Statistics"}
-            subtitle={"42.82k Total Orders"}
-            data={"8,258"}
-            datatitle={"Total Orders"}
-            chart={<DoughnutChart GlobalData={GlobalData.DoughnutChart} />}
-          />
-        </Col>
-        <Col xl={{ span: 4 }} md={{ span: 6 }} className="mb-4">
-          <LargeCard
-            title={"Most Sold"}
-            subtitle={"Electronic 82.5k"}
-            data={"155.4k"}
-            datatitle={"Total Sold"}
-            chart={<PieChart GlobalData={GlobalData} />}
+          <DefaultTabs
+            item1={
+              <LargeCard
+                title={"Traffic Source"}
+                subtitle={"3.2k Visits last month"}
+                data={"143"}
+                datatitle={"Today"}
+                chart={<PolarChart GlobalData={GlobalData} />}
+              />
+            }
+            item2={
+              <LargeCard
+                title={"Order Statistics"}
+                subtitle={"42.82k Total Orders"}
+                data={"8,258"}
+                datatitle={"Total Orders"}
+                chart={<DoughnutChart GlobalData={GlobalData.DoughnutChart} />}
+              />
+            }
+            item3={
+              <LargeCard
+                title={"Most Sold"}
+                subtitle={"Electronic 82.5k"}
+                data={"155.4k"}
+                datatitle={"Total Sold"}
+                chart={<PieChart GlobalData={GlobalData} />}
+              />
+            }
           />
         </Col>
       </Row>
